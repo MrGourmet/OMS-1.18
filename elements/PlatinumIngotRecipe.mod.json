@@ -2,42 +2,19 @@
   "_fv": 28,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
+    "recipeType": "Smithing",
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "platinum_ingot",
     "recipeShapeless": false,
-    "recipeSlots": [
-      {
-        "value": "CUSTOM:PlatinumNugget"
-      },
-      {
-        "value": "CUSTOM:PlatinumNugget"
-      },
-      {
-        "value": "CUSTOM:PlatinumNugget"
-      },
-      {
-        "value": "CUSTOM:PlatinumNugget"
-      },
-      {
-        "value": "CUSTOM:PlatinumNugget"
-      },
-      {
-        "value": "CUSTOM:PlatinumNugget"
-      },
-      {
-        "value": "CUSTOM:PlatinumNugget"
-      },
-      {
-        "value": "CUSTOM:PlatinumNugget"
-      },
-      {
-        "value": "CUSTOM:PlatinumNugget"
-      }
-    ],
-    "recipeReturnStack": {
+    "smithingInputStack": {
+      "value": "CUSTOM:SilverIngot"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:PlatinumNugget"
+    },
+    "smithingReturnStack": {
       "value": "CUSTOM:Platinumingot"
     },
     "name": "platinum_ingot_recipe",

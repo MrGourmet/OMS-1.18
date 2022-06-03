@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "platinum_nugget",
+    "texture": "platinum_scrap",
     "customModelName": "Normal",
     "name": "Platinum Nugget",
     "rarity": "COMMON",

@@ -1,9 +1,10 @@
 {
+  "group": "platinum_scrap_recipe",
   "type": "minecraft:blasting",
   "experience": 5,
-  "cookingtime": 5000,
+  "cookingtime": 4500,
   "ingredient": {
-    "item": "oms_forge:raw_platinum"
+    "item": "oms_forge:platinum_ore_end"
   },
   "result": "oms_forge:platinum_nugget"
 }

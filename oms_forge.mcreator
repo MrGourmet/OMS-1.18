@@ -810,15 +810,6 @@
       "path": "~/Recipe"
     },
     {
-      "name": "Iphone13prorecipe",
-      "type": "recipe",
-      "sortid": 92,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "iphone_13prorecipe",
-      "path": "~/Recipe"
-    },
-    {
       "name": "PlatinumNugget",
       "type": "item",
       "sortid": 93,
