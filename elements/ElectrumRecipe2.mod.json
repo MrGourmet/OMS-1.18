@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 0.5,
+    "cookingTime": 125,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:ElectrumOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:ElectrumIngot"
+    },
+    "name": "electrum_recipe_2",
+    "namespace": "mod"
+  }
+}

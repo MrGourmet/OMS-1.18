@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "oms_forge:almost_platinum_chestplate"
+  },
+  "addition": {
+    "item": "oms_forge:platinumingot"
+  },
+  "result": {
+    "item": "oms_forge:platinum_armor_chestplate"
+  }
+}

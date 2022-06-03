@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 1600,
+    "recipeRetstackSize": 1,
+    "group": "hardened_steel_armor",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:SteelArmor.body"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:HardenedSteelArmor.body"
+    },
+    "name": "hardened_steel_chestplate_recipe",
+    "namespace": "mod"
+  }
+}

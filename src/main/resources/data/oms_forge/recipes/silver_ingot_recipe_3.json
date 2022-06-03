@@ -1,0 +1,13 @@
+{
+  "group": "silver_ingot",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "oms_forge:silver_ingot"
+    }
+  ],
+  "result": {
+    "item": "oms_forge:silver_nugget",
+    "count": 9
+  }
+}

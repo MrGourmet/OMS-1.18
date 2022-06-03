@@ -1,0 +1,123 @@
+{
+  "display": {
+    "icon": {
+      "item": "oms_forge:platinum_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.covermewhite.title"
+    },
+    "description": {
+      "translate": "advancements.covermewhite.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "covermewhite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "oms_forge:platinum_armor_chestplate"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 6,
+    "recipes": [
+      "oms_forge:silver_ingot_recipe",
+      "oms_forge:silver_ingot_recipe_1",
+      "oms_forge:silver_ingot_recipe_2",
+      "oms_forge:steel_ingot_recipe",
+      "oms_forge:iron_stick_recipe",
+      "oms_forge:iron_stick_recipe_1",
+      "oms_forge:iron_stick_recipe_2",
+      "oms_forge:steel_sword_recipe",
+      "oms_forge:steel_sword_recipe_1",
+      "oms_forge:steel_sword_recipe_2",
+      "oms_forge:hardened_steel_sword_recipe",
+      "oms_forge:electrum_recipe",
+      "oms_forge:electrum_recipe_1",
+      "oms_forge:electrum_recipe_2",
+      "oms_forge:silver_sword_recipe",
+      "oms_forge:electrum_sword_recipe",
+      "oms_forge:electrum_sword_recipe_1",
+      "oms_forge:steel_armor_helmet_recipe",
+      "oms_forge:steel_armor_helmet_recipe_1",
+      "oms_forge:steel_armor_chestplate_recipe",
+      "oms_forge:steel_armor_leggins_recipe",
+      "oms_forge:steel_armor_boots_recipe",
+      "oms_forge:steel_armor_boots_recipe_1",
+      "oms_forge:steel_pickaxe_recipe",
+      "oms_forge:hardened_steel_pickaxe_recipe",
+      "oms_forge:hardened_steel_helmet_recipe",
+      "oms_forge:hardened_steel_chestplate_recipe",
+      "oms_forge:hardened_steel_leggins_recipe",
+      "oms_forge:hardened_steel_boots_recipe",
+      "oms_forge:steel_axe_recipe",
+      "oms_forge:steel_axe_recipe_1",
+      "oms_forge:hardened_steel_axe_recipe",
+      "oms_forge:steel_shovel_recipe",
+      "oms_forge:steel_shovel_recipe_1",
+      "oms_forge:steel_shovel_recipe_2",
+      "oms_forge:steel_hoe_recipe",
+      "oms_forge:steel_hoe_recipe_1",
+      "oms_forge:hardened_steel_shovel_recipe",
+      "oms_forge:hardened_steel_hoe_recipe",
+      "oms_forge:steel_block_recipe",
+      "oms_forge:steel_block_recipe_1",
+      "oms_forge:glasspereplavka",
+      "oms_forge:flashzarenii",
+      "oms_forge:golden_helmet_recipe",
+      "oms_forge:golden_helmet_recipe_1",
+      "oms_forge:golden_helmet_recipe_2",
+      "oms_forge:golden_chestplate_recipe",
+      "oms_forge:golden_chestplate_recipe_1",
+      "oms_forge:golden_leggins_recipe",
+      "oms_forge:golden_leggins_recipe_1",
+      "oms_forge:golden_boots_recipe",
+      "oms_forge:golden_boots_recipe_1",
+      "oms_forge:golden_boots_recipe_2",
+      "oms_forge:iphone_13prorecipe",
+      "oms_forge:platinum_nugget_recipe",
+      "oms_forge:platinum_nugget_recipe_1",
+      "oms_forge:platinum_ingot_recipe",
+      "oms_forge:platinum_helmet_recipe",
+      "oms_forge:platinum_helmet_recipe_1",
+      "oms_forge:platinum_stani",
+      "oms_forge:platinu_mn_agrudnik",
+      "oms_forge:platinum_botinki",
+      "oms_forge:platinum_boots_recipe",
+      "oms_forge:netherite_platinum_helmet_recipe",
+      "oms_forge:netherite_platinum_chestplate_recipe",
+      "oms_forge:netherite_platinum_leggins_recipe",
+      "oms_forge:netherite_platinum_boots_recipe",
+      "oms_forge:almost_platinum_chestplate_recipe",
+      "oms_forge:almost_platinum_leggins_recipe",
+      "oms_forge:platinum_helmet_recipe_2",
+      "oms_forge:platinum_chestplate_recipe",
+      "oms_forge:platinum_leggins_recipe",
+      "oms_forge:platinum_boots_recipe_1",
+      "oms_forge:platinum_pickaxe_recipe",
+      "oms_forge:platinum_pickaxe_recipe_1",
+      "oms_forge:platinum_sword_recipe",
+      "oms_forge:platinumsword_recipe_1",
+      "oms_forge:platinumsword_recipe_2",
+      "oms_forge:platinumsword_recipe_3",
+      "oms_forge:silver_sword_recipe_1",
+      "oms_forge:silver_block_recipe",
+      "oms_forge:silver_ingot_recipe_3"
+    ]
+  },
+  "parent": "oms_forge:dazzling_ingot"
+}

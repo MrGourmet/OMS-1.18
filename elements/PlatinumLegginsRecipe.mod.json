@@ -1,0 +1,23 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "platinum_leggins",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:AlmostPlatinumLeggins"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:Platinumingot"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:PlatinumArmor.legs"
+    },
+    "name": "platinum_leggins_recipe",
+    "namespace": "mod"
+  }
+}

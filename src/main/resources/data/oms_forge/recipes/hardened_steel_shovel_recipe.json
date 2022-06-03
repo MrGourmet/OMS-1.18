@@ -1,0 +1,10 @@
+{
+  "group": "hardened_steel_shovel",
+  "type": "minecraft:smelting",
+  "experience": 0.3,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "oms_forge:steel_shovel"
+  },
+  "result": "oms_forge:hardened_steel_shovel"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "item": "oms_forge:platinumingot"
+  },
+  "result": {
+    "item": "oms_forge:netherite_platinum_chestplate"
+  }
+}

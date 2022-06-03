@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "oms_forge:blocks/silver_ore2",
+    "up": "oms_forge:blocks/silver_ore2",
+    "north": "oms_forge:blocks/silver_ore2",
+    "east": "oms_forge:blocks/silver_ore2",
+    "south": "oms_forge:blocks/silver_ore2",
+    "west": "oms_forge:blocks/silver_ore2",
+    "particle": "oms_forge:blocks/silver_ore2"
+  }
+}

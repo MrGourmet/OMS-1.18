@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "oms_forge:items/not_hardened_steel_shovel"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:golden_chestplate"
+  },
+  "addition": {
+    "item": "oms_forge:silver_ingot"
+  },
+  "result": {
+    "item": "oms_forge:electrum_armor_chestplate"
+  }
+}

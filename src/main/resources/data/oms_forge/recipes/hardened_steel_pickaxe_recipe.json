@@ -1,0 +1,10 @@
+{
+  "group": "hardened_steel_pickaxe",
+  "type": "minecraft:smelting",
+  "experience": 0.3,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "oms_forge:steel_pickaxe"
+  },
+  "result": "oms_forge:hardened_steel_pickaxe"
+}

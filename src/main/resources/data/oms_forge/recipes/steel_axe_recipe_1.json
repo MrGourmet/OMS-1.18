@@ -1,0 +1,30 @@
+{
+  "group": "steel_axe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "oms_forge:steel_ingot"
+    },
+    "1": {
+      "item": "oms_forge:steel_ingot"
+    },
+    "2": {
+      "item": "oms_forge:steel_ingot"
+    },
+    "3": {
+      "item": "oms_forge:iron_stick"
+    },
+    "5": {
+      "item": "oms_forge:iron_stick"
+    }
+  },
+  "result": {
+    "item": "oms_forge:steel_axe",
+    "count": 1
+  }
+}

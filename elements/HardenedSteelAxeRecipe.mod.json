@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 0.3,
+    "cookingTime": 700,
+    "recipeRetstackSize": 1,
+    "group": "hardened_steel_axe",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:SteelAxe"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:HardenedSteelAxe"
+    },
+    "name": "hardened_steel_axe_recipe",
+    "namespace": "mod"
+  }
+}

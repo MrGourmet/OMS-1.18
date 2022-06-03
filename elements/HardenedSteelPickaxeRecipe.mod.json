@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 0.3,
+    "cookingTime": 600,
+    "recipeRetstackSize": 1,
+    "group": "hardened_steel_pickaxe",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:SteelPickaxe"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:HardenedSteelPickaxe"
+    },
+    "name": "hardened_steel_pickaxe_recipe",
+    "namespace": "mod"
+  }
+}

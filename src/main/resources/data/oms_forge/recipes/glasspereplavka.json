@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 0.2,
+  "cookingtime": 80,
+  "ingredient": {
+    "item": "minecraft:sand"
+  },
+  "result": "minecraft:glass"
+}

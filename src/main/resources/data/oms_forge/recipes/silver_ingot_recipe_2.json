@@ -1,0 +1,10 @@
+{
+  "group": "silver_ingot",
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "oms_forge:silver_ore"
+  },
+  "result": "oms_forge:silver_ingot"
+}

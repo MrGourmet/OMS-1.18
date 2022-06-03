@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 0.4,
+    "cookingTime": 500,
+    "recipeRetstackSize": 1,
+    "group": "hardened_steel_hoe",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Steelhue"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:HardenedSteelHoe"
+    },
+    "name": "hardened_steel_hoe_recipe",
+    "namespace": "mod"
+  }
+}

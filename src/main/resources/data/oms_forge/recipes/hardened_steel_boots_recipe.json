@@ -1,0 +1,10 @@
+{
+  "group": "hardened_steel_armor",
+  "type": "minecraft:smelting",
+  "experience": 0.4,
+  "cookingtime": 800,
+  "ingredient": {
+    "item": "oms_forge:steel_armor_boots"
+  },
+  "result": "oms_forge:hardened_steel_armor_boots"
+}

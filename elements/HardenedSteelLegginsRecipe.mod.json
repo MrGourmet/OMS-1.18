@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 0.7,
+    "cookingTime": 1400,
+    "recipeRetstackSize": 1,
+    "group": "hardened_steel_armor",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:SteelArmor.legs"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:HardenedSteelArmor.legs"
+    },
+    "name": "hardened_steel_leggins_recipe",
+    "namespace": "mod"
+  }
+}

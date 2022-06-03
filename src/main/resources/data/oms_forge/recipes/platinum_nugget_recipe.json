@@ -1,0 +1,10 @@
+{
+  "group": "platinum_nugget",
+  "type": "minecraft:blasting",
+  "experience": 4,
+  "cookingtime": 3500,
+  "ingredient": {
+    "item": "oms_forge:raw_platinum"
+  },
+  "result": "oms_forge:platinum_nugget"
+}

@@ -1,0 +1,10 @@
+{
+  "group": "hardened_steel_sword",
+  "type": "minecraft:smelting",
+  "experience": 0.2,
+  "cookingtime": 450,
+  "ingredient": {
+    "item": "oms_forge:steel_sword"
+  },
+  "result": "oms_forge:hardened_steel_sword"
+}

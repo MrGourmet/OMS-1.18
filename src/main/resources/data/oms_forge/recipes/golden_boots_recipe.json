@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:golden_boots"
+  },
+  "addition": {
+    "item": "oms_forge:platinumingot"
+  },
+  "result": {
+    "item": "oms_forge:electrum_armor_boots"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "oms_forge:silver_ore",
+    "oms_forge:electrum_ore",
+    "oms_forge:steel_block",
+    "oms_forge:platinum_ore",
+    "oms_forge:platinum_ore_end"
+  ]
+}

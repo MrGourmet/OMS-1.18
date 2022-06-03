@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 0.3,
+    "cookingTime": 400,
+    "recipeRetstackSize": 1,
+    "group": "hardened_steel_shovel",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:SteelShovel"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:HardenedSteelShovel"
+    },
+    "name": "hardened_steel_shovel_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "oms_forge:blocks/electrum_ore",
+    "up": "oms_forge:blocks/electrum_ore",
+    "north": "oms_forge:blocks/electrum_ore",
+    "east": "oms_forge:blocks/electrum_ore",
+    "south": "oms_forge:blocks/electrum_ore",
+    "west": "oms_forge:blocks/electrum_ore",
+    "particle": "oms_forge:blocks/electrum_ore"
+  }
+}

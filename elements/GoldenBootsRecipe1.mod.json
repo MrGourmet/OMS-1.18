@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "electrum_boots",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ElectrumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ElectrumIngot"
+      },
+      {
+        "value": "CUSTOM:ElectrumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ElectrumIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ElectrumArmor.boots"
+    },
+    "name": "golden_boots_recipe_1",
+    "namespace": "mod"
+  }
+}

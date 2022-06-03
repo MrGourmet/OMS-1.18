@@ -1,0 +1,1450 @@
+{
+  "mod_elements": [
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore",
+      "path": "~/Metals"
+    },
+    {
+      "name": "SilverNugget",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_nugget",
+      "path": "~/Metals"
+    },
+    {
+      "name": "SilverOreloottable",
+      "type": "loottable",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_oreloottable",
+      "path": "~/Produces"
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot",
+      "path": "~/Metals"
+    },
+    {
+      "name": "SilverIngotRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SilverIngotRecipe1",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SilverIngotRecipe2",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot_recipe_2",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SilverSword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_sword",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "Platinumingot",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinumingot",
+      "path": "~/Metals"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "path": "~/Metals"
+    },
+    {
+      "name": "SteelIngotRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SteelSword",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "IronStick",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_stick",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "IronStickRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_stick_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "IronStickRecipe1",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_stick_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "IronStickRecipe2",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_stick_recipe_2",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SteelSwordRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SteelSwordRecipe1",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SteelSwordRecipe2",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_sword_recipe_2",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SilverSwordProduces",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_sword_produces",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Produces"
+    },
+    {
+      "name": "HardenedSteelSword",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_steel_sword",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "HardenedSteelSwordRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_steel_sword_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "ElectrumOre",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_ore",
+      "path": "~/Metals"
+    },
+    {
+      "name": "ElectrumIngot",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_ingot",
+      "path": "~/Metals"
+    },
+    {
+      "name": "ElectrumRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "ElectrumRecipe1",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "ElectrumRecipe2",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_recipe_2",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "ElectrumSword",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_sword",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "ElectrumSwordProduce",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_sword_produce",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Produces"
+    },
+    {
+      "name": "SilverSwordRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_sword_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "ElectrumSwordRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_sword_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "ElectrumSwordRecipe1",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_sword_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SilverBlock",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block",
+      "path": "~/Metals"
+    },
+    {
+      "name": "SteelArmor",
+      "type": "armor",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "SteelArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_helmet_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SteelArmorHelmetRecipe1",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_helmet_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SteelArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_chestplate_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SteelArmorLegginsRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_leggins_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SteelArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_boots_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SteelArmorBootsRecipe1",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_armor_boots_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SteelPickaxe",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "SteelPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_pickaxe_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "HardenedSteelPickaxe",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_steel_pickaxe",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "HardenedSteelPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_steel_pickaxe_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "HardenedSteelArmor",
+      "type": "armor",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_steel_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "HardenedSteelHelmetRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_steel_helmet_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "HardenedSteelChestplateRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_steel_chestplate_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "HardenedSteelLegginsRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_steel_leggins_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "HardenedSteelBootsRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_steel_boots_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SteelShovel",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "SteelAxe",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_axe",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "HardenedSteelAxe",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_steel_axe",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "SteelAxeRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_axe_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SteelAxeRecipe1",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_axe_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "HardenedSteelAxeRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_steel_axe_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SteelShovelRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SteelShovelRecipe1",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SteelShovelRecipe2",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shovel_recipe_2",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Steelhue",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelhue",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "SteelHoeRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hoe_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SteelHoeRecipe1",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_hoe_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "HardenedSteelShovel",
+      "type": "tool",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_steel_shovel",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "HardenedSteelHoe",
+      "type": "tool",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_steel_hoe",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "HardenedSteelShovelRecipe",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_steel_shovel_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "HardenedSteelHoeRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_steel_hoe_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block",
+      "path": "~/Metals"
+    },
+    {
+      "name": "PlatinumOre",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore",
+      "path": "~/Metals"
+    },
+    {
+      "name": "PlatinumOreEnd",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ore_end",
+      "path": "~/Metals"
+    },
+    {
+      "name": "SteelBlockRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SteelBlockRecipe1",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Glasspereplavka",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glasspereplavka",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "ElectrumArmor",
+      "type": "armor",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrum_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "Flashzarenii",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flashzarenii",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PlatinumArmor",
+      "type": "armor",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "Iphone13Pro",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iphone_13_pro",
+      "path": "~/Some Updates"
+    },
+    {
+      "name": "GoldenHelmetRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_helmet_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "GoldenHelmetRecipe1",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_helmet_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "GoldenHelmetRecipe2",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_helmet_recipe_2",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "GoldenChestplateRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_chestplate_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "GoldenChestplateRecipe1",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_chestplate_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "GoldenLegginsRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_leggins_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "GoldenLegginsRecipe1",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_leggins_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "GoldenBootsRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_boots_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "GoldenBootsRecipe1",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_boots_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "GoldenBootsRecipe2",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_boots_recipe_2",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Iphone13prorecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iphone_13prorecipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PlatinumNugget",
+      "type": "item",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_nugget",
+      "path": "~/Metals"
+    },
+    {
+      "name": "PlatinumNuggetRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_nugget_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PlatinumNuggetRecipe1",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_nugget_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PlatinumIngotRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_ingot_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PlatinumHelmetRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_helmet_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PlatinumHelmetRecipe1",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_helmet_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "Fun",
+      "type": "tab",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fun",
+      "path": "~/Some Updates"
+    },
+    {
+      "name": "SuperPickaxe",
+      "type": "tool",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_pickaxe",
+      "path": "~/Some Updates"
+    },
+    {
+      "name": "BanArmor",
+      "type": "armor",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ban_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Some Updates"
+    },
+    {
+      "name": "AlmostPlatinumLeggins",
+      "type": "item",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "almost_platinum_leggins",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "NetheritePlatinumHelmet",
+      "type": "item",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_platinum_helmet",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "NetheritePlatinumLeggins",
+      "type": "item",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_platinum_leggins",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "AlmostPlatinumChestplate",
+      "type": "item",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "almost_platinum_chestplate",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "NetheritePlatinumChestplate",
+      "type": "item",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_platinum_chestplate",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "NetheritePlatinumBoots",
+      "type": "item",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_platinum_boots",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "PlatinumStani",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_stani",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PLATINUMnAGRUDNIK",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinu_mn_agrudnik",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PlatinumBotinki",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_botinki",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PlatinumBootsRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_boots_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "NetheritePlatinumHelmetRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_platinum_helmet_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "NetheritePlatinumChestplateRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_platinum_chestplate_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "NetheritePlatinumLegginsRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_platinum_leggins_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "NetheritePlatinumBootsRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_platinum_boots_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "AlmostPlatinumChestplateRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "almost_platinum_chestplate_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "AlmostPlatinumLegginsRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "almost_platinum_leggins_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PlatinumHelmetRecipe2",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_helmet_recipe_2",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PlatinumChestplateRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_chestplate_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PlatinumLegginsRecipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_leggins_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PlatinumBootsRecipe1",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_boots_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PlatinumPickaxe",
+      "type": "tool",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_pickaxe",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "PlatinumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_pickaxe_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PlatinumPickaxeRecipe1",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_pickaxe_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PlatinumArmorProcedure",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Produces"
+    },
+    {
+      "name": "MethProduce",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meth_produce",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Some Updates"
+    },
+    {
+      "name": "PlatinumSword",
+      "type": "tool",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_sword",
+      "path": "~/Armor and tools"
+    },
+    {
+      "name": "PlatinumSwordRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_sword_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PlatinumswordRecipe1",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinumsword_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PlatinumswordRecipe2",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinumsword_recipe_2",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PlatinumswordRecipe3",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinumsword_recipe_3",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SilverSwordRecipe1",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_sword_recipe_1",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SilverBlockRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block_recipe",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "SilverIngotRecipe3",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot_recipe_3",
+      "path": "~/Recipe"
+    },
+    {
+      "name": "PlatinumArmorProcedure1",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor_procedure_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Produces"
+    },
+    {
+      "name": "PlatinumArmorProcedure2",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_armor_procedure_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Produces"
+    },
+    {
+      "name": "DazzlingIngot",
+      "type": "achievement",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dazzling_ingot",
+      "path": "~/Produces"
+    },
+    {
+      "name": "Covermewhite",
+      "type": "achievement",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "covermewhite",
+      "path": "~/Produces"
+    },
+    {
+      "name": "Ban",
+      "type": "achievement",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ban",
+      "path": "~/Produces"
+    },
+    {
+      "name": "EvenMoreBetter",
+      "type": "achievement",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "even_more_better",
+      "path": "~/Produces"
+    },
+    {
+      "name": "RawPlatinum",
+      "type": "item",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_platinum",
+      "path": "~/Metals"
+    },
+    {
+      "name": "Flash",
+      "type": "item",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flash",
+      "path": "~/Some Updates"
+    },
+    {
+      "name": "Pelmen",
+      "type": "item",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pelmen",
+      "path": "~/Some Updates"
+    },
+    {
+      "name": "Meth",
+      "type": "item",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "meth",
+      "path": "~/Some Updates"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.oms_forge.platinum_armor_leggings": "Platinum Leggings",
+      "item.oms_forge.steel_armor_chestplate": "Steel Chestplate",
+      "advancements.covermewhite.title": "Cover Me White",
+      "item.oms_forge.hardened_steel_armor_helmet": "Hardened Steel Helmet",
+      "item.oms_forge.meth": "Meth",
+      "advancements.ban.descr": "Get a platinum ore on earth",
+      "item.oms_forge.hardened_steel_sword": "Hardened Steel Sword",
+      "item.oms_forge.raw_platinum": "Raw Platinum",
+      "item.oms_forge.netherite_platinum_leggins": "Netherite Platinum Leggins",
+      "item.oms_forge.hardened_steel_axe": "Hardened Steel Axe",
+      "item.oms_forge.netherite_platinum_boots": "Netherite Platinum Boots",
+      "item.oms_forge.steel_armor_boots": "Steel Boots",
+      "advancements.even_more_better.title": "Even More Better",
+      "item.oms_forge.ban_armor_boots": "Ban Armor Boots",
+      "block.oms_forge.steel_block": "Steel Block",
+      "item.oms_forge.almost_platinum_leggins": "Almost Platinum Leggins",
+      "item.oms_forge.electrum_ingot": "Electrum Ingot",
+      "item.oms_forge.steelhue": "Steel Hoe",
+      "item.oms_forge.steel_armor_helmet": "Steel Helmet",
+      "item.oms_forge.silver_ingot": "Silver Ingot",
+      "item.oms_forge.steel_armor_leggings": "Steel Leggings",
+      "item.oms_forge.steel_sword": "Steel Sword",
+      "item.oms_forge.super_pickaxe": "Ban Pickaxe",
+      "advancements.ban.title": "Unreal",
+      "item.oms_forge.almost_platinum_chestplate": "Almost Platinum Chestplate",
+      "item.oms_forge.platinum_armor_boots": "Platinum Boots",
+      "item.oms_forge.hardened_steel_armor_leggings": "Hardened Steel Leggings",
+      "item.oms_forge.netherite_platinum_helmet": "Netherite Platinum Helmet",
+      "item.oms_forge.ban_armor_chestplate": "Ban Armor Body",
+      "block.oms_forge.electrum_ore": "Electrum Ore",
+      "item.oms_forge.platinum_nugget": "Platinum Nugget",
+      "item.oms_forge.hardened_steel_hoe": "Hardened Steel Hoe",
+      "advancements.dazzling_ingot.title": "Dazzling Ingot",
+      "advancements.dazzling_ingot.descr": "Get a platinum ingot",
+      "item.oms_forge.silver_sword": "Silver Sword",
+      "block.oms_forge.silver_block": "Silver Block",
+      "block.oms_forge.platinum_ore": "Platinum Ore",
+      "item.oms_forge.flash": "Flash",
+      "itemGroup.tabfun": "Fun",
+      "item.oms_forge.steel_shovel": "Steel Shovel",
+      "item.oms_forge.ban_armor_helmet": "Ban Armor Helmet",
+      "item.oms_forge.ban_armor_leggings": "Ban Armor Leggings",
+      "item.oms_forge.hardened_steel_pickaxe": "Hardened Steel Pickaxe",
+      "block.oms_forge.platinum_ore_end": "Platinum Ore End",
+      "item.oms_forge.iron_stick": "Iron Stick",
+      "item.oms_forge.steel_axe": "Steel Axe",
+      "advancements.even_more_better.descr": "Make hardened steel pickaxe",
+      "item.oms_forge.electrum_armor_boots": "Electrum Boots",
+      "item.oms_forge.platinum_sword": "Platinum Sword",
+      "item.oms_forge.platinum_armor_helmet": "Platinum Helmet",
+      "item.oms_forge.platinum_armor_chestplate": "Platinum Chestplate",
+      "item.oms_forge.netherite_platinum_chestplate": "Netherite Platinum Chestplate",
+      "item.oms_forge.electrum_armor_helmet": "Electrum Helmet",
+      "item.oms_forge.electrum_armor_chestplate": "Electrum Chestplate",
+      "item.oms_forge.platinumingot": "Platinum Ingot",
+      "item.oms_forge.electrum_armor_leggings": "Electrum Leggings",
+      "item.oms_forge.hardened_steel_armor_chestplate": "Hardened Steel Chestplate",
+      "item.oms_forge.hardened_steel_shovel": "Hardened Steel Shovel",
+      "item.oms_forge.pelmen": "Pelmen",
+      "item.oms_forge.steel_ingot": "Steel Ingot",
+      "item.oms_forge.iphone_13_pro": "IPhone 13 Pro",
+      "item.oms_forge.platinum_pickaxe": "Platinum Pickaxe",
+      "item.oms_forge.electrum_sword": "Electrum Sword",
+      "advancements.covermewhite.descr": "Get a platinum chestplate",
+      "item.oms_forge.hardened_steel_armor_boots": "Hardened Steel Boots",
+      "item.oms_forge.silver_nugget": "Silver Nugget",
+      "block.oms_forge.silver_ore": "Silver Ore",
+      "item.oms_forge.steel_pickaxe": "Steel Pickaxe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Armor and tools",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "Produces",
+        "children": []
+      },
+      {
+        "name": "Recipe",
+        "children": []
+      },
+      {
+        "name": "Some Updates",
+        "children": []
+      },
+      {
+        "name": "Metals",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "oms_forge",
+    "modName": "OMS Forge",
+    "version": "1.0.0",
+    "author": "Mr.Gourmet",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": false,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.omsforge",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

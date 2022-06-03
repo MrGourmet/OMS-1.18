@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "oms_forge:block/electrum_ore"
+    }
+  }
+}

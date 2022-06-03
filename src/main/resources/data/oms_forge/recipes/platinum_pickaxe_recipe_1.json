@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "addition": {
+    "item": "oms_forge:platinumingot"
+  },
+  "result": {
+    "item": "oms_forge:platinum_pickaxe"
+  }
+}

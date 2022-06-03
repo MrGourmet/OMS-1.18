@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "oms_forge:block/steel_block"
+    }
+  }
+}

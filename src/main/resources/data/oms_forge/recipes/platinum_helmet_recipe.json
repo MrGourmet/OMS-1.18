@@ -1,0 +1,29 @@
+{
+  "group": "platinum_helmet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "oms_forge:platinumingot"
+    },
+    "1": {
+      "item": "oms_forge:platinumingot"
+    },
+    "2": {
+      "item": "oms_forge:platinumingot"
+    },
+    "3": {
+      "item": "oms_forge:platinumingot"
+    },
+    "5": {
+      "item": "oms_forge:platinumingot"
+    }
+  },
+  "result": {
+    "item": "oms_forge:platinum_armor_helmet",
+    "count": 1
+  }
+}

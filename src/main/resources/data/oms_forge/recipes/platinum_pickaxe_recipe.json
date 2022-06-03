@@ -1,0 +1,30 @@
+{
+  "group": "platinum_pickaxe",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "oms_forge:platinumingot"
+    },
+    "1": {
+      "item": "oms_forge:platinumingot"
+    },
+    "2": {
+      "item": "oms_forge:platinumingot"
+    },
+    "4": {
+      "item": "oms_forge:iron_stick"
+    },
+    "7": {
+      "item": "oms_forge:iron_stick"
+    }
+  },
+  "result": {
+    "item": "oms_forge:platinum_pickaxe",
+    "count": 1
+  }
+}

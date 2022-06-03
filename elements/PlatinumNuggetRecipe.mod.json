@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 4.0,
+    "cookingTime": 3500,
+    "recipeRetstackSize": 1,
+    "group": "platinum_nugget",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:RawPlatinum"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:PlatinumNugget"
+    },
+    "name": "platinum_nugget_recipe",
+    "namespace": "mod"
+  }
+}

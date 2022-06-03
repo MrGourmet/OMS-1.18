@@ -1,0 +1,24 @@
+{
+  "group": "steel_sword",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "oms_forge:steel_ingot"
+    },
+    "1": {
+      "item": "oms_forge:steel_ingot"
+    },
+    "2": {
+      "item": "oms_forge:iron_stick"
+    }
+  },
+  "result": {
+    "item": "oms_forge:steel_sword",
+    "count": 1
+  }
+}

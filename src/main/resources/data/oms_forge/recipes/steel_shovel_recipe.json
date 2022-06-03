@@ -1,0 +1,24 @@
+{
+  "group": "steel_showel",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "oms_forge:steel_ingot"
+    },
+    "1": {
+      "item": "oms_forge:iron_stick"
+    },
+    "2": {
+      "item": "oms_forge:iron_stick"
+    }
+  },
+  "result": {
+    "item": "oms_forge:steel_shovel",
+    "count": 1
+  }
+}

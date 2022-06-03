@@ -1,0 +1,31 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "banpickaxe",
+    "customModelName": "Normal",
+    "name": "Ban Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Fun"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 20,
+    "efficiency": 100050.0,
+    "attackSpeed": 100.0,
+    "enchantability": 100303,
+    "damageVsEntity": 1000.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.BEDROCK"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

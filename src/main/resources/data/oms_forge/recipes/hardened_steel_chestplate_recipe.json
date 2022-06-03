@@ -1,0 +1,10 @@
+{
+  "group": "hardened_steel_armor",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 1600,
+  "ingredient": {
+    "item": "oms_forge:steel_armor_chestplate"
+  },
+  "result": "oms_forge:hardened_steel_armor_chestplate"
+}

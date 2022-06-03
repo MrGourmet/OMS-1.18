@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 0.4,
+    "cookingTime": 800,
+    "recipeRetstackSize": 1,
+    "group": "hardened_steel_armor",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:SteelArmor.boots"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:HardenedSteelArmor.boots"
+    },
+    "name": "hardened_steel_boots_recipe",
+    "namespace": "mod"
+  }
+}

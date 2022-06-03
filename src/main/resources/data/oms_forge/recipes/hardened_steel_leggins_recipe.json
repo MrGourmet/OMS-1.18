@@ -1,0 +1,10 @@
+{
+  "group": "hardened_steel_armor",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 1400,
+  "ingredient": {
+    "item": "oms_forge:steel_armor_leggings"
+  },
+  "result": "oms_forge:hardened_steel_armor_leggings"
+}

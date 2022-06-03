@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 0.5,
+    "cookingTime": 1000,
+    "recipeRetstackSize": 1,
+    "group": "hardened_steel_armor",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:SteelArmor.helmet"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:HardenedSteelArmor.helmet"
+    },
+    "name": "hardened_steel_helmet_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "group": "steel_block",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "oms_forge:steel_ingot"
+    },
+    {
+      "item": "oms_forge:steel_ingot"
+    },
+    {
+      "item": "oms_forge:steel_ingot"
+    },
+    {
+      "item": "oms_forge:steel_ingot"
+    },
+    {
+      "item": "oms_forge:steel_ingot"
+    },
+    {
+      "item": "oms_forge:steel_ingot"
+    },
+    {
+      "item": "oms_forge:steel_ingot"
+    },
+    {
+      "item": "oms_forge:steel_ingot"
+    },
+    {
+      "item": "oms_forge:steel_ingot"
+    }
+  ],
+  "result": {
+    "item": "oms_forge:steel_block",
+    "count": 1
+  }
+}

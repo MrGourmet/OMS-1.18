@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "experience": 0.2,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "result": "oms_forge:flash"
+}
