@@ -128,12 +128,15 @@
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
+      },
+      {
+        "value": "CUSTOM:SilverOre"
       }
     ],
     "generationShape": "UNIFORM",
     "frequencyPerChunks": 1,
     "frequencyOnChunk": 1,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 12
+    "maxGenerateHeight": 4
   }
 }

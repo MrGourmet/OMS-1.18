@@ -2,12 +2,12 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "platinum_ore_end",
-    "textureTop": "platinum_ore_end",
-    "textureLeft": "platinum_ore_end",
-    "textureFront": "platinum_ore_end",
-    "textureRight": "platinum_ore_end",
-    "textureBack": "platinum_ore_end",
+    "texture": "platinum_slate",
+    "textureTop": "platinum_slate",
+    "textureLeft": "platinum_slate",
+    "textureFront": "platinum_slate",
+    "textureRight": "platinum_slate",
+    "textureBack": "platinum_slate",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Platinum Ore End",
+    "name": "Deepslate Platinum Ore",
     "specialInfo": [],
-    "hardness": 8.5,
-    "resistance": 45.0,
+    "hardness": 20.0,
+    "resistance": 60.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -77,7 +77,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "GILDED_BLACKSTONE"
+      "value": "DEEPSLATE"
     },
     "breakSound": {
       "value": ""
@@ -122,22 +122,18 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "End"
+      "Surface"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "end_highlands"
-      }
-    ],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.END_STONE"
+        "value": "Blocks.STONE"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 18,
+    "frequencyPerChunks": 1,
     "frequencyOnChunk": 1,
-    "minGenerateHeight": 20,
-    "maxGenerateHeight": 55
+    "minGenerateHeight": -64,
+    "maxGenerateHeight": -54
   }
 }

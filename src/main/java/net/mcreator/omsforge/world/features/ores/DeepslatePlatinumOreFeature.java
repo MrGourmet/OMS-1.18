@@ -36,18 +36,18 @@ import java.util.Set;
 import java.util.Random;
 import java.util.List;
 
-public class PlatinumOreEndFeature extends OreFeature {
-	public static PlatinumOreEndFeature FEATURE = null;
+public class DeepslatePlatinumOreFeature extends OreFeature {
+	public static DeepslatePlatinumOreFeature FEATURE = null;
 	public static Holder<ConfiguredFeature<OreConfiguration, ?>> CONFIGURED_FEATURE = null;
 	public static Holder<PlacedFeature> PLACED_FEATURE = null;
 
 	public static Feature<?> feature() {
-		FEATURE = new PlatinumOreEndFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("oms_forge:platinum_ore_end", FEATURE,
-				new OreConfiguration(PlatinumOreEndFeatureRuleTest.INSTANCE, OmsForgeModBlocks.PLATINUM_ORE_END.get().defaultBlockState(), 1));
-		PLACED_FEATURE = PlacementUtils.register("oms_forge:platinum_ore_end", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(18), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(20), VerticalAnchor.absolute(55)), BiomeFilter.biome()));
+		FEATURE = new DeepslatePlatinumOreFeature();
+		CONFIGURED_FEATURE = FeatureUtils.register("oms_forge:deepslate_platinum_ore", FEATURE, new OreConfiguration(
+				DeepslatePlatinumOreFeatureRuleTest.INSTANCE, OmsForgeModBlocks.DEEPSLATE_PLATINUM_ORE.get().defaultBlockState(), 1));
+		PLACED_FEATURE = PlacementUtils.register("oms_forge:deepslate_platinum_ore", CONFIGURED_FEATURE,
+				List.of(CountPlacement.of(1), InSquarePlacement.spread(),
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(-54)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -55,10 +55,10 @@ public class PlatinumOreEndFeature extends OreFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("end_highlands"));
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.END);
+	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
-	public PlatinumOreEndFeature() {
+	public DeepslatePlatinumOreFeature() {
 		super(OreConfiguration.CODEC);
 	}
 
@@ -70,22 +70,22 @@ public class PlatinumOreEndFeature extends OreFeature {
 	}
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-	private static class PlatinumOreEndFeatureRuleTest extends RuleTest {
-		static final PlatinumOreEndFeatureRuleTest INSTANCE = new PlatinumOreEndFeatureRuleTest();
-		private static final com.mojang.serialization.Codec<PlatinumOreEndFeatureRuleTest> CODEC = com.mojang.serialization.Codec
+	private static class DeepslatePlatinumOreFeatureRuleTest extends RuleTest {
+		static final DeepslatePlatinumOreFeatureRuleTest INSTANCE = new DeepslatePlatinumOreFeatureRuleTest();
+		private static final com.mojang.serialization.Codec<DeepslatePlatinumOreFeatureRuleTest> CODEC = com.mojang.serialization.Codec
 				.unit(() -> INSTANCE);
-		private static final RuleTestType<PlatinumOreEndFeatureRuleTest> CUSTOM_MATCH = () -> CODEC;
+		private static final RuleTestType<DeepslatePlatinumOreFeatureRuleTest> CUSTOM_MATCH = () -> CODEC;
 
 		@SubscribeEvent
 		public static void init(FMLCommonSetupEvent event) {
-			Registry.register(Registry.RULE_TEST, new ResourceLocation("oms_forge:platinum_ore_end_match"), CUSTOM_MATCH);
+			Registry.register(Registry.RULE_TEST, new ResourceLocation("oms_forge:deepslate_platinum_ore_match"), CUSTOM_MATCH);
 		}
 
 		private List<Block> base_blocks = null;
 
 		public boolean test(BlockState blockAt, Random random) {
 			if (base_blocks == null) {
-				base_blocks = List.of(Blocks.END_STONE);
+				base_blocks = List.of(Blocks.STONE);
 			}
 			return base_blocks.contains(blockAt.getBlock());
 		}

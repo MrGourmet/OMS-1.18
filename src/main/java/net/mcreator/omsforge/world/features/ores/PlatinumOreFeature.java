@@ -47,7 +47,7 @@ public class PlatinumOreFeature extends OreFeature {
 				new OreConfiguration(PlatinumOreFeatureRuleTest.INSTANCE, OmsForgeModBlocks.PLATINUM_ORE.get().defaultBlockState(), 1));
 		PLACED_FEATURE = PlacementUtils.register("oms_forge:platinum_ore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(1), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(12)), BiomeFilter.biome()));
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(4)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -84,7 +84,7 @@ public class PlatinumOreFeature extends OreFeature {
 
 		public boolean test(BlockState blockAt, Random random) {
 			if (base_blocks == null) {
-				base_blocks = List.of(Blocks.STONE);
+				base_blocks = List.of(Blocks.STONE, OmsForgeModBlocks.SILVER_ORE.get());
 			}
 			return base_blocks.contains(blockAt.getBlock());
 		}

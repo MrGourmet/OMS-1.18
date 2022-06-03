@@ -16,6 +16,7 @@ import net.mcreator.omsforge.block.SilverBlockBlock;
 import net.mcreator.omsforge.block.PlatinumOreEndBlock;
 import net.mcreator.omsforge.block.PlatinumOreBlock;
 import net.mcreator.omsforge.block.ElectrumOreBlock;
+import net.mcreator.omsforge.block.DeepslatePlatinumOreBlock;
 import net.mcreator.omsforge.OmsForgeMod;
 
 public class OmsForgeModBlocks {
@@ -26,4 +27,6 @@ public class OmsForgeModBlocks {
 	public static final RegistryObject<Block> STEEL_BLOCK = REGISTRY.register("steel_block", () -> new SteelBlockBlock());
 	public static final RegistryObject<Block> PLATINUM_ORE = REGISTRY.register("platinum_ore", () -> new PlatinumOreBlock());
 	public static final RegistryObject<Block> PLATINUM_ORE_END = REGISTRY.register("platinum_ore_end", () -> new PlatinumOreEndBlock());
+	public static final RegistryObject<Block> DEEPSLATE_PLATINUM_ORE = REGISTRY.register("deepslate_platinum_ore",
+			() -> new DeepslatePlatinumOreBlock());
 }

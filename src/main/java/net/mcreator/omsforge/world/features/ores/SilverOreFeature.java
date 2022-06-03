@@ -46,7 +46,7 @@ public class SilverOreFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("oms_forge:silver_ore", FEATURE,
 				new OreConfiguration(SilverOreFeatureRuleTest.INSTANCE, OmsForgeModBlocks.SILVER_ORE.get().defaultBlockState(), 8));
 		PLACED_FEATURE = PlacementUtils.register("oms_forge:silver_ore", CONFIGURED_FEATURE, List.of(CountPlacement.of(5), InSquarePlacement.spread(),
-				HeightRangePlacement.uniform(VerticalAnchor.absolute(14), VerticalAnchor.absolute(58)), BiomeFilter.biome()));
+				HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(58)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -54,7 +54,11 @@ public class SilverOreFeature extends OreFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("frozen_ocean"), new ResourceLocation("frozen_river"),
+			new ResourceLocation("forest"), new ResourceLocation("snowy_plains"), new ResourceLocation("taiga"), new ResourceLocation("snowy_slopes"),
+			new ResourceLocation("cold_ocean"), new ResourceLocation("snowy_taiga"), new ResourceLocation("deep_cold_ocean"),
+			new ResourceLocation("ice_spikes"), new ResourceLocation("windswept_hills"), new ResourceLocation("old_growth_pine_taiga"),
+			new ResourceLocation("frozen_peaks"), new ResourceLocation("old_growth_spruce_taiga"), new ResourceLocation("snowy_beach"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
 	public SilverOreFeature() {
@@ -83,7 +87,7 @@ public class SilverOreFeature extends OreFeature {
 
 		public boolean test(BlockState blockAt, Random random) {
 			if (base_blocks == null) {
-				base_blocks = List.of(Blocks.STONE, Blocks.ANDESITE, Blocks.REDSTONE_ORE, Blocks.GOLD_ORE, OmsForgeModBlocks.SILVER_ORE.get());
+				base_blocks = List.of(Blocks.STONE, Blocks.ANDESITE, Blocks.REDSTONE_ORE, Blocks.GOLD_ORE);
 			}
 			return base_blocks.contains(blockAt.getBlock());
 		}

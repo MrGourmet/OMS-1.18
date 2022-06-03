@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "oms_forge:blocks/platinum_slate",
+    "up": "oms_forge:blocks/platinum_slate",
+    "north": "oms_forge:blocks/platinum_slate",
+    "east": "oms_forge:blocks/platinum_slate",
+    "south": "oms_forge:blocks/platinum_slate",
+    "west": "oms_forge:blocks/platinum_slate",
+    "particle": "oms_forge:blocks/platinum_slate"
+  }
+}

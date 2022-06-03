@@ -21,6 +21,7 @@ import net.mcreator.omsforge.world.features.ores.SilverOreFeature;
 import net.mcreator.omsforge.world.features.ores.PlatinumOreFeature;
 import net.mcreator.omsforge.world.features.ores.PlatinumOreEndFeature;
 import net.mcreator.omsforge.world.features.ores.ElectrumOreFeature;
+import net.mcreator.omsforge.world.features.ores.DeepslatePlatinumOreFeature;
 import net.mcreator.omsforge.OmsForgeMod;
 
 import java.util.function.Supplier;
@@ -41,6 +42,9 @@ public class OmsForgeModFeatures {
 	public static final RegistryObject<Feature<?>> PLATINUM_ORE_END = register("platinum_ore_end", PlatinumOreEndFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, PlatinumOreEndFeature.GENERATE_BIOMES,
 					PlatinumOreEndFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> DEEPSLATE_PLATINUM_ORE = register("deepslate_platinum_ore", DeepslatePlatinumOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, DeepslatePlatinumOreFeature.GENERATE_BIOMES,
+					DeepslatePlatinumOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

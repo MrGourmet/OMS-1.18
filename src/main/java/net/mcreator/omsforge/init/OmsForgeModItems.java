@@ -128,6 +128,8 @@ public class OmsForgeModItems {
 	public static final RegistryObject<Item> FLASH = REGISTRY.register("flash", () -> new FlashItem());
 	public static final RegistryObject<Item> PELMEN = REGISTRY.register("pelmen", () -> new PelmenItem());
 	public static final RegistryObject<Item> METH = REGISTRY.register("meth", () -> new MethItem());
+	public static final RegistryObject<Item> DEEPSLATE_PLATINUM_ORE = block(OmsForgeModBlocks.DEEPSLATE_PLATINUM_ORE,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
