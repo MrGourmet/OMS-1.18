@@ -24,7 +24,6 @@ import net.mcreator.omsforge.item.SteelArmorItem;
 import net.mcreator.omsforge.item.SilverSwordItem;
 import net.mcreator.omsforge.item.SilverNuggetItem;
 import net.mcreator.omsforge.item.SilverIngotItem;
-import net.mcreator.omsforge.item.RawPlatinumItem;
 import net.mcreator.omsforge.item.PlatinumingotItem;
 import net.mcreator.omsforge.item.PlatinumSwordItem;
 import net.mcreator.omsforge.item.PlatinumPickaxeItem;
@@ -126,7 +125,6 @@ public class OmsForgeModItems {
 			() -> new AlmostPlatinumLegginsItem());
 	public static final RegistryObject<Item> PLATINUM_PICKAXE = REGISTRY.register("platinum_pickaxe", () -> new PlatinumPickaxeItem());
 	public static final RegistryObject<Item> PLATINUM_SWORD = REGISTRY.register("platinum_sword", () -> new PlatinumSwordItem());
-	public static final RegistryObject<Item> RAW_PLATINUM = REGISTRY.register("raw_platinum", () -> new RawPlatinumItem());
 	public static final RegistryObject<Item> FLASH = REGISTRY.register("flash", () -> new FlashItem());
 	public static final RegistryObject<Item> PELMEN = REGISTRY.register("pelmen", () -> new PelmenItem());
 	public static final RegistryObject<Item> METH = REGISTRY.register("meth", () -> new MethItem());

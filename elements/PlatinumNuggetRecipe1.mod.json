@@ -4,12 +4,12 @@
   "definition": {
     "recipeType": "Blasting",
     "xpReward": 5.0,
-    "cookingTime": 5000,
+    "cookingTime": 4500,
     "recipeRetstackSize": 1,
-    "group": "",
+    "group": "platinum_scrap_recipe",
     "recipeShapeless": false,
     "blastingInputStack": {
-      "value": "CUSTOM:RawPlatinum"
+      "value": "CUSTOM:PlatinumOreEnd"
     },
     "blastingReturnStack": {
       "value": "CUSTOM:PlatinumNugget"

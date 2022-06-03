@@ -810,15 +810,6 @@
       "path": "~/Recipe"
     },
     {
-      "name": "Iphone13prorecipe",
-      "type": "recipe",
-      "sortid": 92,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "iphone_13prorecipe",
-      "path": "~/Recipe"
-    },
-    {
       "name": "PlatinumNugget",
       "type": "item",
       "sortid": 93,
@@ -1289,15 +1280,6 @@
       "path": "~/Produces"
     },
     {
-      "name": "RawPlatinum",
-      "type": "item",
-      "sortid": 139,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raw_platinum",
-      "path": "~/Metals"
-    },
-    {
       "name": "Flash",
       "type": "item",
       "sortid": 140,
@@ -1336,7 +1318,6 @@
       "item.oms_forge.meth": "Meth",
       "advancements.ban.descr": "Get a platinum ore on earth",
       "item.oms_forge.hardened_steel_sword": "Hardened Steel Sword",
-      "item.oms_forge.raw_platinum": "Raw Platinum",
       "item.oms_forge.netherite_platinum_leggins": "Netherite Platinum Leggins",
       "item.oms_forge.hardened_steel_axe": "Hardened Steel Axe",
       "item.oms_forge.netherite_platinum_boots": "Netherite Platinum Boots",

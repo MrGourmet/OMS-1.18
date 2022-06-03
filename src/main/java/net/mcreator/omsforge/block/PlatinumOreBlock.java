@@ -13,8 +13,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.omsforge.init.OmsForgeModItems;
-
 import java.util.List;
 import java.util.Collections;
 
@@ -40,6 +38,6 @@ public class PlatinumOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(OmsForgeModItems.RAW_PLATINUM.get()));
+		return Collections.singletonList(new ItemStack(this, 1));
 	}
 }

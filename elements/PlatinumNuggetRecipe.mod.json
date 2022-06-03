@@ -6,10 +6,10 @@
     "xpReward": 4.0,
     "cookingTime": 3500,
     "recipeRetstackSize": 1,
-    "group": "platinum_nugget",
+    "group": "platinum_scrap_recipe",
     "recipeShapeless": false,
     "blastingInputStack": {
-      "value": "CUSTOM:RawPlatinum"
+      "value": "CUSTOM:PlatinumOre"
     },
     "blastingReturnStack": {
       "value": "CUSTOM:PlatinumNugget"
