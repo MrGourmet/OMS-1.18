@@ -1323,6 +1323,15 @@
       "locked_code": false,
       "registry_name": "deepslate_platinum_ore",
       "path": "~/Metals"
+    },
+    {
+      "name": "PlatinumAxe",
+      "type": "tool",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinum_axe",
+      "path": "~/Armor and tools"
     }
   ],
   "variable_elements": [],
@@ -1331,15 +1340,16 @@
     "en_us": {
       "item.oms_forge.platinum_armor_leggings": "Platinum Leggings",
       "item.oms_forge.steel_armor_chestplate": "Steel Chestplate",
-      "advancements.covermewhite.title": "Cover Me White",
       "item.oms_forge.hardened_steel_armor_helmet": "Hardened Steel Helmet",
+      "advancements.covermewhite.title": "Cover Me White",
       "item.oms_forge.meth": "Meth",
-      "advancements.ban.descr": "Get a platinum ore on earth",
       "item.oms_forge.hardened_steel_sword": "Hardened Steel Sword",
+      "advancements.ban.descr": "Get a platinum ore on earth",
       "item.oms_forge.raw_platinum": "Raw Platinum",
       "item.oms_forge.netherite_platinum_leggins": "Netherite Platinum Leggins",
       "item.oms_forge.hardened_steel_axe": "Hardened Steel Axe",
       "item.oms_forge.netherite_platinum_boots": "Netherite Platinum Boots",
+      "item.oms_forge.platinum_axe": "Platinum Axe",
       "item.oms_forge.steel_armor_boots": "Steel Boots",
       "advancements.even_more_better.title": "Even More Better",
       "item.oms_forge.ban_armor_boots": "Ban Armor Boots",
