@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "netherite_platinum_helmet",
+    "texture": "rawplatinum",
     "customModelName": "Normal",
-    "name": "Netherite Platinum Helmet",
+    "name": "Raw Platinum",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
